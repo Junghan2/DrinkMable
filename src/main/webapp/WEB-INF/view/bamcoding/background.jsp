@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!-- Jsp address http://localhost:8080/DrinkMarble/background.jsp -->
-<!-- Servlet address http://localhost:8080/DrinkMarble/cube -->
+<!-- Jsp address http://localhost:8080/DrinkMable/background.jsp -->
+<!-- Servlet address http://localhost:8080/DrinkMable/cube -->
 <!DOCTYPE html>
 <html>
 <head>
