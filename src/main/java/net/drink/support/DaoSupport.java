@@ -120,7 +120,7 @@ public class DaoSupport {
 	}
 	
 	private Connection getConnection() throws SQLException {
-		return DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","ARTICLES","ARTICLES");
+		return DriverManager.getConnection("jdbc:oracle:thin:10.225.152.174:1521:XE","DRINK","DRINK");
 	}
 	
 	private void close(ResultSet rs, PreparedStatement pstmt, Connection conn) {
