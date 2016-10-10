@@ -27,7 +27,7 @@ public class ViewCubeServlet extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		String viewPath = "/WEB-INF/view/bamcoding/cube.jsp";
+		String viewPath = "/WEB-INF/view/bamcoding/background.jsp";
 		RequestDispatcher rd = request.getRequestDispatcher(viewPath);
 		rd.forward(request, response);
 
