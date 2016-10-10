@@ -28,4 +28,14 @@
     <servlet-name>ViewCubeServlet</servlet-name>
     <url-pattern>/cube</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ViewPlayIndexPageServlet</display-name>
+    <servlet-name>ViewPlayIndexPageServlet</servlet-name>
+    <servlet-class>net.drink.play.web.ViewPlayIndexPageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewPlayIndexPageServlet</servlet-name>
+    <url-pattern>/play/index</url-pattern>
+  </servlet-mapping>
 </web-app>
