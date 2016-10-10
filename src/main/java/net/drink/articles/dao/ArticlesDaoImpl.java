@@ -36,7 +36,7 @@ public class ArticlesDaoImpl extends DaoSupport implements ArticlesDao {
 				pstmt.setString(6, article.getCategoryId());
 				
 				return pstmt;
-
+//asdasd
 			}
 		});
 	}
