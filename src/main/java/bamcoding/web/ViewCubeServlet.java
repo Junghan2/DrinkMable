@@ -1,6 +1,7 @@
 package bamcoding.web;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -29,6 +30,11 @@ public class ViewCubeServlet extends HttpServlet {
 			throws ServletException, IOException {
 		String viewPath = "/WEB-INF/view/bamcoding/background.jsp";
 		RequestDispatcher rd = request.getRequestDispatcher(viewPath);
+	/*	PrintWriter out = response.getWriter();
+		out.print("왜 안되?");
+		out.flush();
+		out.close();*/
+		
 		rd.forward(request, response);
 
 	}

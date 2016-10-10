@@ -5,11 +5,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet" type="text/css"  href="/test/css/cube.css"/> 
+<link rel="stylesheet" type="text/css"  href="/DrinkMable/css/cube.css"/> 
 </head>
 <body>
 <img style="position :absolute;top:0px;left:0px;width:100%; height:100%; " src="/test/img/pan.png"/>
+<%
+  
+int a= 1;
 
+%>
+<h1><%=a %></h1>
 	<div class="wrapper">
 		<div class="cube">
 			<div class="front side">front</div>
