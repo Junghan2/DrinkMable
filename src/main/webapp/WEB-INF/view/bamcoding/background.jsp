@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css"  href="/DrinkMarble/css/cube.css"/> 
 </head>
 <body>
-<img style="position :absolute;top:0px;left:0px;width:100%; height:100%; " src="/test/img/pan.png"/>
+<img style="position :absolute;top:0px;left:0px;width:100%; height:100%; " src="/DrinkMarble/img/pan.png"/>
 
 	<div class="wrapper">
 		<div class="cube">
