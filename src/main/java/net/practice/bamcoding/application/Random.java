@@ -1,4 +1,4 @@
-package bamcoding;
+package net.practice.bamcoding.application;
 
 import java.util.Scanner;
 

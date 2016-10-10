@@ -1,4 +1,4 @@
-package sjh;
+package net.practice.sjh;
 
 public class haha {
 //huhyhuhuhh

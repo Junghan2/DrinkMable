@@ -10,14 +10,16 @@ import javax.servlet.ServletResponse;
 
 public class CharacterEncodingFilter implements Filter {
 
-	public CharacterEncodingFilter() {
-	}
+    public CharacterEncodingFilter() {
+    }
 
 	public void destroy() {
 	}
-
-	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
-			throws IOException, ServletException {
+	
+	/**
+	 * 모든 페이지에 적용된는 한글 깨짐 방지 필터입니다. 
+	 */
+	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
 		request.setCharacterEncoding("UTF-8");
 		response.setCharacterEncoding("UTF-8");
 		chain.doFilter(request, response);
