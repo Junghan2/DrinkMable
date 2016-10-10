@@ -8,5 +8,6 @@ public class haha {
 	//정한이 뭐 먹을래?
 
 	//1211221
-	//수빈이 
+	//수빈이 dfadfasdfasdf
+	//정한아 안녕 
 }
