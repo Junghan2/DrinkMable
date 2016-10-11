@@ -38,4 +38,34 @@
     <servlet-name>ViewCubeServlet</servlet-name>
     <url-pattern>/cube</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ViewFlipServlet</display-name>
+    <servlet-name>ViewFlipServlet</servlet-name>
+    <servlet-class>net.practice.bamcoding.web.ViewFlipServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewFlipServlet</servlet-name>
+    <url-pattern>/flip</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ViewCarouselServlet</display-name>
+    <servlet-name>ViewCarouselServlet</servlet-name>
+    <servlet-class>net.practice.bamcoding.web.ViewCarouselServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewCarouselServlet</servlet-name>
+    <url-pattern>/carousel</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ViewCarouselServlet2</display-name>
+    <servlet-name>ViewCarouselServlet2</servlet-name>
+    <servlet-class>net.practice.bamcoding.web.ViewCarouselServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewCarouselServlet2</servlet-name>
+    <url-pattern>/carousel2</url-pattern>
+  </servlet-mapping>
 </web-app>
