@@ -50,7 +50,7 @@
 }
 
 .front {
-	background: url(http://davidwalsh.name/demo/dwflip.jpg) 0 0 no-repeat;
+	background: url(http://localhost:8080/DrinkMable/img/carousel/lake-tekapo.jpg) 0 0 no-repeat;
 	z-index: 2;
 }
 
@@ -88,7 +88,7 @@
 	left: 90px;
 	width: 160px;
 	height: 117px;
-	background: url(http://davidwalsh.name/demo/logo.png) 0 0 no-repeat;
+	background: url(http://localhost:8080/DrinkMable/img/carousel/pink-milford-sound.jpg) 0 0 no-repeat;
 }
 
 .back-title {
@@ -111,6 +111,6 @@
 	right: 0;
 	text-align: center;
 	padding: 0 20px;
-  font-family: arial;
-  line-height: 2em;
+  	font-family: arial;
+  	line-height: 2em;
 }

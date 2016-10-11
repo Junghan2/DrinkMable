@@ -5,10 +5,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css"  href="/DrinkMable/css/flip.css"/> 
-
+<script type="text/javascript" src="/DrinkMable/js/jquery-3.1.1.js"></script>
+<script type="text/javascript">
+$().ready(function(){
+	$("#container").click(function(){
+		alert("클릭하면?");
+	});
+	
+});
+</script>
 </head>
 <body>
-<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+<div class="flip-container" id="container" ontouchstart="this.classList.toggle('hover');">
   <div class="flipper">
     <div class="front">
       <span class="name">Post it</span>
