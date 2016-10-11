@@ -7,26 +7,21 @@
 <link rel="stylesheet" type="text/css" href="/DrinkMable/css/carousel.css">
 <script type="text/javascript" src="/DrinkMable/js/jquery-3.1.1.js"></script>
 <script type="text/javascript">
-var carousel = $(".carousel"),
-currdeg  = 0;
 
-$(".next").on("click", { d: "n" }, rotate);
-$(".prev").on("click", { d: "p" }, rotate);
-
-function rotate(e){
-if(e.data.d=="n"){
-currdeg = currdeg - 60;
-}
-if(e.data.d=="p"){
-currdeg = currdeg + 60;
-}
-carousel.css({
-"-webkit-transform": "rotateY("+currdeg+"deg)",
-"-moz-transform": "rotateY("+currdeg+"deg)",
-"-o-transform": "rotateY("+currdeg+"deg)",
-"transform": "rotateY("+currdeg+"deg)"
+$().ready(function(){
+	
+	var currdeg = 0;
+	$(".next").click(function(){
+		currdeg = currdeg + 60;
+		$(".carousel").css("-webkit-transform","rotateY(" + currdeg + "deg)");
+		$(".carousel").css("-moz-transform","rotateY(" + currdeg + "deg)");
+		$(".carousel").css("-o-transform","rotateY(" + currdeg + "deg)");
+		$(".carousel").css( "transform","rotateY(" + currdeg + "deg)");
+	});
+	
 });
-}
+
+
 </script>
 
 </head>
