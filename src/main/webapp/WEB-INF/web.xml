@@ -58,14 +58,4 @@
     <servlet-name>ViewCarouselServlet</servlet-name>
     <url-pattern>/carousel</url-pattern>
   </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>ViewCarouselServlet2</display-name>
-    <servlet-name>ViewCarouselServlet2</servlet-name>
-    <servlet-class>net.practice.bamcoding.web.ViewCarouselServlet2</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>ViewCarouselServlet2</servlet-name>
-    <url-pattern>/carousel2</url-pattern>
-  </servlet-mapping>
 </web-app>

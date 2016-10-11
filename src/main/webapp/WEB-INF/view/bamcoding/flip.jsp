@@ -5,11 +5,28 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css"  href="/DrinkMable/css/flip.css"/> 
-
+<script type="text/javascript" src="/DrinkMable/js/jquery-3.1.1.js"></script>
+<script type="text/javascript">
+$().ready(function(){
+	
+	var check = 0;
+	$("#container").click(function(){
+		if(check==0){
+			$("#flipper").addClass("clickFlip");
+			check =1;
+		}
+		else if(check==1){
+			$("#flipper").removeClass("clickFlip");
+			check =0;
+		}
+	});
+	
+});
+</script>
 </head>
 <body>
-<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-  <div class="flipper">
+<div id="container" ontouchstart="this.classList.toggle('hover');">
+  <div id="flipper">
     <div class="front">
       <span class="name">Post it</span>
     </div>

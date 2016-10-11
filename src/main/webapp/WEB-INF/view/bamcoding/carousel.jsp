@@ -4,8 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="/DrinkMable/css/carousel2.css">
-<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="/DrinkMable/css/carousel.css">
 <script type="text/javascript" src="/DrinkMable/js/jquery-3.1.1.js"></script>
 <script type="text/javascript">
 var carousel = $(".carousel"),

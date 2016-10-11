@@ -19,7 +19,7 @@ public class ViewFlipServlet extends HttpServlet {
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/view/bamcoding/flip2.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/view/bamcoding/flip.jsp");
 		rd.forward(request, response);
 	}
 

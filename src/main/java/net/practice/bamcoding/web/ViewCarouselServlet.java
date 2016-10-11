@@ -8,9 +8,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class ViewCarouselServlet2 extends HttpServlet {
+public class ViewCarouselServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-    public ViewCarouselServlet2() {
+    public ViewCarouselServlet() {
         super();
     }
 
@@ -19,7 +19,7 @@ public class ViewCarouselServlet2 extends HttpServlet {
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/view/bamcoding/carousel2.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/view/bamcoding/carousel.jsp");
 		rd.forward(request, response);
 	}
 }
