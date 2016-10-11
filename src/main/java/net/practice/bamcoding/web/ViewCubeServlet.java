@@ -20,7 +20,7 @@ public class ViewCubeServlet extends HttpServlet {
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/view/bamcoding/background.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/view/bamcoding/throw.jsp");
 		rd.forward(request, response);
 	}
 

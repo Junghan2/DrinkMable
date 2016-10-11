@@ -18,6 +18,13 @@ $().ready(function(){
 		$(".carousel").css("-o-transform","rotateY(" + currdeg + "deg)");
 		$(".carousel").css( "transform","rotateY(" + currdeg + "deg)");
 	});
+	$(".prev").click(function(){
+		currdeg = currdeg - 60;
+		$(".carousel").css("-webkit-transform","rotateY(" + currdeg + "deg)");
+		$(".carousel").css("-moz-transform","rotateY(" + currdeg + "deg)");
+		$(".carousel").css("-o-transform","rotateY(" + currdeg + "deg)");
+		$(".carousel").css( "transform","rotateY(" + currdeg + "deg)");
+	});
 	
 });
 

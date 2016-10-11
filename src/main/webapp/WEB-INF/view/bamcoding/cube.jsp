@@ -15,65 +15,23 @@
  -->
 	<div class="wrapper">
 		<div class="cube">
-			<div class="front side">front</div>
-			<div class="back side">back</div>
-			<div class="left side">left</div>
-			<div class="right side">right</div>
-			<div class="top side">top</div>
-			<div class="bottom side">bottom</div>
+			<div class="front side item">front</div>
+			<div class="back side item">back</div>
+			<div class="left side item">left</div>
+			<div class="right side item">right</div>
+			<div class="top side item">top</div>
+			<div class="bottom side item">bottom</div>
 		</div>
 	</div>
-
-	<style>
-
-	#card{
-		border:3px solid black;
-		height:200px;
-		width:500px;
-	}
-
-	#selectedCard {
-		position : relative;
-		background:gray;
-		height:200px;
-		width:500px;
-	}
-	#viewDetail {
-		position : relative;
-		background:aqua;
-		height:200px;
-		width:500px;
-		transform : rotateY(180deg);
-	}
-	
-	
-	.flipCard{
-		animation : flipCard 1s linear;
-	}
-	
-	@keyframes flipCard {
-    0%   {transform : rotateX(0deg)}
-    100% {transform : rotateX(180deg)}
-	}
-	</style>
-	<!-- 카드 뒤집기 -->
-	<script type="text/javascript">
-	$().ready(function(){
-		$("#viewDetail").click(function(){
-			alert("제이쿼리가 정상적으로 작동합니다(viewDetail)");
-		});
-		$("#selectedCard").click(function(){
-			$("#card").addClass("flipCard");			
-		});
-		
-		
-
-	});
-	</script>
-	<div id="card">
-	<div id="viewDetail">설명 보기</div>
-	<div id="selectedCard">선택된 카드</div>
+		<div class="wrapper">
+		<div class="cube">
+			<div class="front side item">front</div>
+			<div class="back side item">back</div>
+			<div class="left side item">left</div>
+			<div class="right side item">right</div>
+			<div class="top side item">top</div>
+			<div class="bottom side item">bottom</div>
+		</div>
 	</div>
-
 </body>
 </html>
