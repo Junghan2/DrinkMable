@@ -8,9 +8,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class ViewFlipServlet extends HttpServlet {
+public class ViewGameServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-    public ViewFlipServlet() {
+       
+    public ViewGameServlet() {
         super();
     }
 
@@ -19,8 +20,9 @@ public class ViewFlipServlet extends HttpServlet {
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/view/bamcoding/flip.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/view/bamcoding/test.jsp");
 		rd.forward(request, response);
+	
 	}
 
 }

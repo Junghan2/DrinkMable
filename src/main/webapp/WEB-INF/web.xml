@@ -40,22 +40,12 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>ViewFlipServlet</display-name>
-    <servlet-name>ViewFlipServlet</servlet-name>
-    <servlet-class>net.practice.bamcoding.web.ViewFlipServlet</servlet-class>
+    <display-name>ViewGameServlet</display-name>
+    <servlet-name>ViewGameServlet</servlet-name>
+    <servlet-class>net.practice.bamcoding.web.ViewGameServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>ViewFlipServlet</servlet-name>
-    <url-pattern>/flip</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>ViewCarouselServlet</display-name>
-    <servlet-name>ViewCarouselServlet</servlet-name>
-    <servlet-class>net.practice.bamcoding.web.ViewCarouselServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>ViewCarouselServlet</servlet-name>
-    <url-pattern>/carousel</url-pattern>
+    <servlet-name>ViewGameServlet</servlet-name>
+    <url-pattern>/viewGame</url-pattern>
   </servlet-mapping>
 </web-app>
